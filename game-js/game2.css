@@ -1,0 +1,17 @@
+:root{
+    --bound: 0 ;  /*變數*/
+}
+body{
+    background-color: rgba(255,94,100,0.5);
+    color: #ff3864;
+}
+.bold{
+    font-weight: bold;
+}
+#box{
+    width: var(--bound); /*width: 140px*/
+    height: var(--bound);/*height: 140px*/
+    background-color: red;
+    display: none;
+    position: relative;  /*定位點 relative 自己*/
+}
